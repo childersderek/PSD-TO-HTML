@@ -19,6 +19,7 @@ footer {
   background-image: url("images/bgk-footer.png") ;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 50px 100px;
 }
 
 .footerMain{
@@ -31,6 +32,10 @@ footer {
 .footerMainLeft, .footerMainCenter, .footerMainRight {
   flex: 1 1 0px;
   padding: 2%;
+    border:green dashed;
+
+}
+h4{  border:green dashed;
 }
 
 .footerMainRight {
@@ -38,7 +43,7 @@ footer {
  flex-direction: column;  
  justify-content:  space-evenly ;
 }
-footer h3, footer p, footer a {
+footer h4, footer p, footer a {
   color: white ;
   text-decoration: none; 
 }
@@ -48,6 +53,7 @@ footer h3, footer p, footer a {
 }
 .newsletterForm{
 padding: 0 4px 0 0; 
+opacity: .5;
 }
 .paperSVG {
   background-color: white;
@@ -62,16 +68,19 @@ padding: 0 4px 0 0;
   padding: 5px 0 0 0;
 }
 .stayInTouchForm a{
-  padding:3px;
+  padding:5px;
+}
+.footerBar a{
+  padding: 20px 5px;
 }
 .footerAddress{
   display:flex;
-  border:green dashed;
+  /* border:green dashed; */
   justify-content:  left;
 }
 .footerPhone{
   display:flex;
-  border:green dashed;
+  /* border:green dashed; */
   justify-content:  left;
   padding:10px;
 }
@@ -80,5 +89,16 @@ padding: 0 4px 0 0;
   height:20px;
   padding:5px;
 }
+.footerBar {
+  display: flex;
+  justify-content: start;
+  /* border:green dashed; */
+}
+.footerLow{
+  display: flex;
+  justify-content: space-between;
+  /* border:green dashed; */
+}
+
 
 /* Footer End */
