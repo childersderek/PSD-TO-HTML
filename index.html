@@ -68,7 +68,7 @@
 
 
 <!-- Footer-->
-<footer >
+<footer>
     <div class="footerMain">
       <div class="footerMainLeft">
         <img src="/design-assets/png/logo.png" alt="Company Logo">
@@ -76,7 +76,7 @@
       </div>
       
       <div class="footerMainCenter">
-        <h3>OUR STUDIO</h3>
+        <h4>OUR STUDIO</h4>
         <div class="footerAddress"> 
             <div class="addressLogo">
                 <img src="/design-assets/png/big104.png" alt="Company Logo">
@@ -102,11 +102,18 @@
       </div>
 
       <div class="footerMainRight">
-        <h3>STAY IN TOUCH </h3>
-        
+        <h4>STAY IN TOUCH </h4>
+        <div>
+            <form name='formName' onsubmit='redirect();return false;'>
+                <div class="stayInTouchForm">
+                  <input required type="email" name="newsletter" id="newsletter" placeholder="Suscribe our newsletter"/>
+                  <div class="paperSVG" >
+                    <input type="image" name="submit" src="/design-assets/png/paper122.png" border="0" alt="email logo" style="width: 25px;" />
+                  </div>
+                </div>
+              </form> 
+        </div>
         <div class="stayInTouchForm">  
-          
-        
           <div class="newsletterForm">
             <form method="POST">
                 <label for="newsletter">
@@ -129,27 +136,41 @@
             </a> 
             <a href="#S1" class="linkSec">
             <img src="/design-assets/png/twitter.png" alt="twitter logo" >
-          </a>
+            </a>
             <a href="#S1" class="linkSec">
             <img src="design-assets/png/dribbble.png" alt="dribble logo" >
-          </a>
+            </a>
             <a href="#S1" class="linkSec">
             <img src="/design-assets/png/instagram.png" alt="instagram logo" >
             </a>
             <a href="#S1" class="linkSec">
             <img src="/design-assets/png/gplus.png" alt="google plus logo" >
             </a>
-        <a href="#S1" class="linkSec">
+            <a href="#S1" class="linkSec">
             <img src="/design-assets/png/youtube.png" alt="youtube logo" >
-        </a>
+            </a>
         </div>
       
+    </div>
+    </div>
+    <div class="footerLow">
+      <div class="footerBar"> 
+        <a href="#" class="linkSec">
+            HELP 
+        </a> 
+        <a href="#" class="linkSec">
+            TERMS&CONDITIONS 
+        </a> 
+        <a href="#" class="linkSec">
+           PRIVACY
+        </a> 
       </div>
-    
-    
-      <div class="footerLow">
-        <p>lower bar</p>
+     
+      <div>
+          <p>Copyright © 2021 - Group 1</p>
+      </div>
     </div>
 </footer>
+
 </body>
 </html>
