@@ -2,3 +2,83 @@
   padding: 5px;
   margin: 10px;
 }
+
+
+
+
+
+/* Footer */
+*{
+  box-sizing: border-box;
+}
+footer p{
+  color:white;
+}
+
+footer {
+  background-image: url("images/bgk-footer.png") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footerMain{
+  display:flex;
+  justify-content:  space-between ;
+  
+
+  
+}
+.footerMainLeft, .footerMainCenter, .footerMainRight {
+  flex: 1 1 0px;
+  padding: 2%;
+}
+
+.footerMainRight {
+  display:flex; 
+ flex-direction: column;  
+ justify-content:  space-evenly ;
+}
+footer h3, footer p, footer a {
+  color: white ;
+  text-decoration: none; 
+}
+.stayInTouchForm{
+  display:flex; 
+  justify-content:  start ;
+}
+.newsletterForm{
+padding: 0 4px 0 0; 
+}
+.paperSVG {
+  background-color: white;
+  padding: 3px 20px .5px 20px;
+  opacity: .5;
+   /* height: 15px;  */
+
+}
+.socialmedia{
+  display:flex; 
+  justify-content:  space-evenly ;
+  padding: 5px 0 0 0;
+}
+.stayInTouchForm a{
+  padding:3px;
+}
+.footerAddress{
+  display:flex;
+  border:green dashed;
+  justify-content:  left;
+}
+.footerPhone{
+  display:flex;
+  border:green dashed;
+  justify-content:  left;
+  padding:10px;
+}
+.addressLogo{
+  border:blue dashed;
+  height:20px;
+  padding:5px;
+}
+
+/* Footer End */
