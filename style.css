@@ -15,7 +15,7 @@ footer p{
 }
 
 footer {
-  background-image: url("images/bgk-footer.png") ;
+  background-image: url("design-assets/bgk-footer.png") ;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 100px;
@@ -84,9 +84,13 @@ opacity: .5;
   padding:10px;
 }
 .addressLogo{
-  border:blue dashed;
+  /* border:blue dashed; */
   height:20px;
   padding:5px;
+}
+#letterImg{
+  border:blue dashed;
+
 }
 .footerBar {
   display: flex;
