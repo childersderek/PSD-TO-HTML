@@ -13,6 +13,8 @@ body {
 
   justify-content: flex-end;
   align-items: center;
+  padding-bottom: 200px;
+  padding-left: 300px;
 }
 .nav-item {
   color: white;
@@ -48,15 +50,21 @@ body {
   border: 2px solid turquoise;
   position: relative;
 }
-.header-logo,
 
+.logo-text {
+  list-style-type: none;
+  display: flex;
+  padding-right: 100px;
+  background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.nav-list,.logo-text {
 
- list-style-type: none;
- display: flex;
-}
-}
 .bg-img {
   background-image: url("/design-assets/bgk-header.png");
   max-width: 100%;
