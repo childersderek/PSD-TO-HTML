@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../../Downloads/photoshop/design-assets"
+	},
+	{
+		"path": "design-assets"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "PSD-TO-HTML-1"
+  }
+}
