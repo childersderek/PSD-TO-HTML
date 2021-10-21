@@ -3,6 +3,107 @@
 body {
   font-family: "Times New Roman", Times, serif;
 }
+
+*{
+  box-sizing: border-box;
+}
+
+/* Footer */
+
+footer p{
+  color:white;
+}
+
+footer {
+  background-image: url("images/bgk-footer.png") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 100px;
+}
+
+.footerMain{
+  display:flex;
+  justify-content:  space-between ;
+  
+
+  
+}
+.footerMainLeft, .footerMainCenter, .footerMainRight {
+  flex: 1 1 0px;
+  padding: 2%;
+    border:green dashed;
+
+}
+h4{  border:green dashed;
+}
+
+.footerMainRight {
+  display:flex; 
+ flex-direction: column;  
+ justify-content:  space-evenly ;
+}
+footer h4, footer p, footer a {
+  color: white ;
+  text-decoration: none; 
+}
+.stayInTouchForm{
+  display:flex; 
+  justify-content:  start ;
+}
+.newsletterForm{
+padding: 0 4px 0 0; 
+opacity: .5;
+}
+.paperSVG {
+  background-color: white;
+  padding: 3px 20px .5px 20px;
+  opacity: .5;
+   /* height: 15px;  */
+
+}
+.socialmedia{
+  display:flex; 
+  justify-content:  space-evenly ;
+  padding: 5px 0 0 0;
+}
+.stayInTouchForm a{
+  padding:5px;
+}
+.footerBar a{
+  padding: 20px 5px;
+}
+.footerAddress{
+  display:flex;
+  /* border:green dashed; */
+  justify-content:  left;
+}
+.footerPhone{
+  display:flex;
+  /* border:green dashed; */
+  justify-content:  left;
+  padding:10px;
+}
+.addressLogo{
+  border:blue dashed;
+  height:20px;
+  padding:5px;
+}
+.footerBar {
+  display: flex;
+  justify-content: start;
+  /* border:green dashed; */
+}
+.footerLow{
+  display: flex;
+  justify-content: space-between;
+  /* border:green dashed; */
+}
+
+
+/* Footer End */
+
+/* Header Section %%%%%%%%%%%%%%%%%%%%%%%%% */
+
 .main-header {
   text-align: center;
   color: white;
@@ -51,6 +152,16 @@ body {
   position: relative;
 }
 
+
+
+
+.nav-list,.logo-text {
+
+ list-style-type: none;
+ display: flex;
+}
+
+
 .logo-text {
   list-style-type: none;
   display: flex;
@@ -64,6 +175,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 .bg-img {
   background-image: url("/design-assets/bgk-header.png");

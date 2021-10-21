@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "PSD-TO-HTML",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PSD-TO-HTML"
+	}
+}
