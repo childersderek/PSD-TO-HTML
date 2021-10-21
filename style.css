@@ -114,6 +114,8 @@ opacity: .5;
 
   justify-content: flex-end;
   align-items: center;
+  padding-bottom: 200px;
+  padding-left: 300px;
 }
 .nav-item {
   color: white;
@@ -150,6 +152,7 @@ opacity: .5;
   position: relative;
 }
 
+<<<<<<< HEAD
 
 
 .nav-list,.logo-text {
@@ -158,6 +161,22 @@ opacity: .5;
  display: flex;
 }
 
+=======
+.logo-text {
+  list-style-type: none;
+  display: flex;
+  padding-right: 100px;
+  background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+>>>>>>> bdc4cc245cbdaa42de8f97663851afc47168bed3
 .bg-img {
   background-image: url("/design-assets/bgk-header.png");
   max-width: 100%;
