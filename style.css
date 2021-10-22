@@ -10,9 +10,10 @@
   font-weight: bold;
 }
 
-.partners-container h3 {
+.S5partners-header {
   font-family: 'Playfair Display';
   font-weight: bold;
+  display:block
 }
 
 .form-container input {
@@ -22,7 +23,7 @@
   border-radius: 2px;
 }
 
-  .form-container h3 {
+  .S5partners-header {
   font-family:'Playfair Display';
   font-weight: bold;
 }
@@ -34,28 +35,33 @@
 
 .form-container input {
   font-family: 'Roboto';
-  color: silver;
-  border: 1px solid silver;
+  color: lightgray;
+  border: 1px solid lightgray;
   border-radius: 2px;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     margin-top: 5px;    
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     resize: vertical;
-}
+  }
 
 .form-container textarea {
   font-family: 'Roboto';
-  color: silver;
-  border: 1px solid silver;
+  color: lightgray;
+  border: 1px solid lightgray;
   border-radius: 2px;
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
-    margin-top: 3px;    
+    margin-top: 5px;    
     margin-bottom: 16px;
     resize: vertical;
+}
+
+textarea {
+  width: 360px;
+  height: 150px;
 }
 
 .submit-button {
@@ -83,28 +89,23 @@
 }
 
 .partners-container {
-  padding-right: 10%;
+  padding-right: 40%;
 }
 
-
-.grid-client {
- grid-template-columns: repeat(2, minmax(200px, 1fr));
- background: white;
- padding: 1rem;
- display: grid;
+.S5section-aside {
+  display: grid;
+  width: 45%;
 }
 
-.grid-client div img {
-  position: static;
-  max-width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-textarea {
-  width: 360px;
-  height: 150px;
+.logos-client {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
 }
 
 .form-container textarea {
@@ -137,19 +138,7 @@ textarea {
   padding-left: 20%;
 }
 
-.partners-container {
-  padding-right: 20%;
-}
-
-
-.grid-client {
- grid-template-columns: repeat(2, minmax(200px, 1fr));
- background: white;
- padding: 1rem;
- display: grid;
-}
-
-.grid-client div img {
+.S5section-aside img {
   position: static;
   max-width: 100%;
   top: 50%;
