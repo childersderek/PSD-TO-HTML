@@ -423,8 +423,8 @@ padding: 15px 0;
     .colist{
     display: grid;  
      -ms-grid-column-align: center;
-    grid-template-columns:1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-row-gap: 10px;
     margin-top: 15px;
     margin-bottom: 25px;
@@ -513,7 +513,7 @@ padding: 15px 0;
       font-size: small;      
     }
     .colist{
-    display: grid;  align-self: center;
+    display: grid;   -ms-grid-column-align: center;
     grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 5px;
