@@ -237,12 +237,6 @@ padding: 3% 2% 0 0;
   position: relative;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 2c1b105235106542886b8005aaf62d7784ca8d95
-
 
 .nav-list,.logo-text {
 
@@ -250,11 +244,6 @@ padding: 3% 2% 0 0;
  display: flex;
 }
 
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 2c1b105235106542886b8005aaf62d7784ca8d95
 .logo-text {
   list-style-type: none;
   display: flex;
@@ -269,11 +258,6 @@ padding: 3% 2% 0 0;
   -webkit-text-fill-color: transparent;
 }
 
-<<<<<<< HEAD
->>>>>>> bdc4cc245cbdaa42de8f97663851afc47168bed3
-=======
-
->>>>>>> 2c1b105235106542886b8005aaf62d7784ca8d95
 .bg-img {
   background-image: url("/design-assets/bgk-header.png");
   max-width: 100%;
