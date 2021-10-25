@@ -9,42 +9,39 @@ body {
 }
 
 /* Footer */
-footer 
-
-h4{  border:green dashed;
-    font-family: "Play Display";
-}
-footer h4, footer p, footer a {
-  color: white ;
-  text-decoration: none; 
-  font-weight: 25;
-}
 
 footer {
   background-image: url("design-assets/bgk-footer.png") ;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 100px;
+  padding: 4em 10%;
+}
+h4{  
+    font-family: "Play Display";
+    /* border:green dashed; */
+}
+footer h4, footer p, footer a {
+  color: white ;
+  text-decoration: none; 
+  font-weight: 50;
 }
 
-.footerMain{
-  display:flex;
-  justify-content:  space-between ;
-  
 
-  
+
+.footerMain{
+   display:flex;
+  justify-content:  space-around;
 }
 .footerMainLeft, .footerMainCenter, .footerMainRight {
   flex: 1 1 0px;
   padding: 2%;
-  border:green dashed;
-
+  /* border:green dashed; */
 }
 .footerMainLeft {
   display:flex; 
  flex-direction: column;  
  justify-content:  flex-start;
-
+ /* align-items: flex-start;  */
 }
 .footerMainRight .footerMainCenter{
   display:flex; 
@@ -54,7 +51,11 @@ footer {
 
 .footerLogoLine{
   display: flex;
-  padding: 1.3em;
+  padding: 1.3em 0 .5em 0;
+  justify-content: flex-start;
+}
+.footerLogo{
+  margin:0;
 }
 .tajam {
   background: linear-gradient(
@@ -89,42 +90,36 @@ footer {
   padding: 0 0 0 0;
 }
 .socialmedia a{
-padding: 0 2% 0 0;
+padding: 3% 2% 0 0;
+}
+.footerForm{
+  margin-top: 1em;
 }
 
-/* .stayInTouchForm a{
-  padding: 5%;
-} */
-.footerBar a{
-  padding: 20px 5px;
-}
+
 .contact{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  margin-top: 2em;
   /* border:red dashed; */
 
 }
 .footerPhone{
   display:flex;
-  /* border:green dashed; */
   justify-content: flex-start;
-  
+  margin-top: 1em;
 }
+
 .phoneImg{
-  /* margin: 2%; */
-  /* border:red dashed; */
-  margin: 2% 0;
-
+  margin:  0;
 }
+
 .phone{
-margin: 2% 0 0 5%;
-/* border:red dashed; */
-white-space: nowrap;
-
-
-
+  margin: 0 5%;
+  white-space: nowrap;
+  /* border:red dashed; */
 }
 .footerAddress{
   display:flex;
@@ -144,9 +139,7 @@ white-space: nowrap;
 .letterImg{
   margin: 0;
 }
-/* .letterImg {
-  border:red solid;
-} */
+
 .addressRoad{
   margin: 0 5%;
   /* border:red solid; */
@@ -159,19 +152,34 @@ white-space: nowrap;
 .addressRoad p{
   margin: 0;
 } 
-.footerBar {
-  display: flex;
-  justify-content: start;
-  /* border:green dashed; */
-}
+
+
 .footerLow{
   display: flex;
   justify-content: space-between;
+  padding: 2% 10% 2% 2%;
   /* border:green dashed; */
 }
-
-
+.footerBar {
+  display: flex;
+  justify-content: start;
+}
+.footerBar a {
+  font-size: 70%;
+  margin: 0;
+  padding: 1em 1em 0 0;
+ 
+}
+.footerLow p {
+  font-size: 70%;
+  margin: 1em 0em 0 20em;
+}
+.copyright{
+  display: flex;
+  justify-content: flex-start;
+}
 /* Footer End */
+
 
 /* Header Section %%%%%%%%%%%%%%%%%%%%%%%%% */
 
