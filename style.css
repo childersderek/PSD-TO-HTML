@@ -1,7 +1,7 @@
 /* Header */
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: roboto;
 }
 
 *{
@@ -9,9 +9,15 @@ body {
 }
 
 /* Footer */
+footer 
 
-footer p{
-  color:white;
+h4{  border:green dashed;
+    font-family: "Play Display";
+}
+footer h4, footer p, footer a {
+  color: white ;
+  text-decoration: none; 
+  font-weight: 25;
 }
 
 footer {
@@ -31,14 +37,24 @@ footer {
 .footerMainLeft, .footerMainCenter, .footerMainRight {
   flex: 1 1 0px;
   padding: 2%;
-    border:green dashed;
+  border:green dashed;
 
 }
-h4{  border:green dashed;
+.footerMainLeft {
+  display:flex; 
+ flex-direction: column;  
+ justify-content:  flex-start;
+
 }
+.footerMainRight .footerMainCenter{
+  display:flex; 
+ flex-direction: column;  
+ justify-content:  flex-start;
+}
+
 .footerLogoLine{
   display: flex;
-  padding: 14% 0 0 0;
+  padding: 1.3em;
 }
 .tajam {
   background: linear-gradient(
@@ -51,21 +67,8 @@ h4{  border:green dashed;
   -webkit-text-fill-color: transparent;
   padding: 1%;
 }
-.footerMainLeft {
-  display:flex; 
- flex-direction: column;  
- justify-content:  space-around;
 
-}
-.footerMainRight {
-  display:flex; 
- flex-direction: column;  
- justify-content:  flex-start;
-}
-footer h4, footer p, footer a {
-  color: white ;
-  text-decoration: none; 
-}
+
 .stayInTouchForm{
   display:flex; 
   justify-content:  start ;
