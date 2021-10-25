@@ -1,21 +1,101 @@
 /* Header */
 
-body {
-  font-family: "Times New Roman", Times, serif;
-}
-.main-header {
+.header-container {
+  background-image: url("/design-assets/bgk-header.png");
+  background-color: #26244f;
   text-align: center;
-  color: white;
+  margin-top: 10px;
+  height: 550px;
+  background-size: cover;
+  background-position: 45% 100%;
 }
-.nav-list {
-  color: white;
-  display: flex;
 
-  justify-content: flex-end;
+.header-wrapper {
+  display: flex;
+  margin: auto;
   align-items: center;
-  padding-bottom: 200px;
-  padding-left: 300px;
+  justify-content: space-between;
+  width: 60%;
 }
+
+.nav-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header-container .nav {
+  display: flex;
+  float: right;
+}
+
+.header-container .nav ul {
+  display: flex;
+}
+
+.header-container .nav ul a {
+  margin-right: auto;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  height: 60px;
+  letter-spacing: 1px;
+  align-items: center;
+}
+
+.logo-text {
+  margin-left: 10px;
+  background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-wrapper a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+@media (max-width: 768px) {
+}
+
+.introduction-text {
+  display: flex;
+  background-color: #52c3c0;
+  height: 2px;
+  width: 50px;
+  margin: auto;
+}
+
+.introduction {
+  padding: 50px;
+  padding-bottom: 10px;
+  align-items: center;
+  color: white;
+}
+
+.header-button {
+  padding: 7px;
+  border-color: #52c3c0;
+  color: #52c3c0;
+  background-color: transparent;
+}
+
 .nav-item {
   color: white;
   list-style-type: none;
@@ -29,50 +109,6 @@ body {
 }
 .nav-item a:hover {
   color: aqua;
-}
-
-.nav-list ul {
-  list-style-type: none;
-}
-.para-header {
-  color: white;
-  text-align: center;
-}
-.center-button {
-  color: rgb(64, 224, 208);
-  text-align: center;
-  position: relative;
-  background-color: rgb(0, 0, 0, 0);
-}
-.header-button {
-  margin: auto;
-  width: 10%;
-  border: 2px solid turquoise;
-  position: relative;
-}
-
-.logo-text {
-  list-style-type: none;
-  display: flex;
-  padding-right: 100px;
-  background: linear-gradient(
-    280deg,
-    rgba(96, 85, 136, 1) 0%,
-    rgba(16, 168, 171, 1) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.bg-img {
-  background-image: url("/design-assets/bgk-header.png");
-  max-width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 /* Header */
