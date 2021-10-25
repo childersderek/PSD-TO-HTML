@@ -197,20 +197,14 @@ opacity: .5;
   background-position: top center;
   position: relative;
   padding: 10px;     
-  margin:0 150px;
+  margin:0 250px;
 }
 .story{
-  display: flex;  
-  flex-direction: row;
-  justify-content: center;
-  flex-basis: 80%;
+  display: grid; 
+  grid-template-rows: 500px;
+  grid-template-columns: 300px 600px;
   align-items: center;
-}
-.biglogo{
-   padding: 30px;
-}
-.scpt{
-    padding: 40px;
+  grid-gap: 0;  
 }
 .lern{
   margin: 10px 0;
@@ -355,4 +349,185 @@ padding: 15px 0;
   }
   img.colleg {
     width: 190px; 
+  }
+@media only screen and (min-width:768px) and (max-width:1023px){
+  #S1{
+    background-position: top center;
+    position: relative;
+    padding: 8px;     
+    font-size: small;
+    margin:0 100px;
+  }
+  .story{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 70%;
+    align-items: center;
+  }
+  .biglogo{
+     padding: 20px;
+  }
+  .scpt{
+      padding: 30px;
+  }
+  .lern{
+    margin: 8px 0;
+    padding: 8px;
+    
+  }
+  .scpt p{
+  padding: 15px 0;
+  }
+  .scpt h2{      
+      padding: 15px 0;
+  }
+  #S2{
+    font-size: small;
+  }
+ 
+  
+    /* section 3: Expertise */
+  #S3{
+      padding: 40px 40px ;
+      text-align: center;
+      background-position: top center;
+    margin:0 100px;
+    font-size: small;
+  }
+    
+  #S3 h2{
+       padding-bottom: 2px;
+       color: rgb(34, 31, 31);
+    }
+  #S3 p{
+      color: gray;
+    }
+    .expotab{
+        padding:30px;
+    }
+    .expotab tr,
+    .expotab td, 
+    .expotab h5, 
+    .expotab p,
+    .expotab img {
+        padding: 10px;
+    }
+    
+    /* Section 4:  MEET OUR TEAM */ 
+  
+   #S4{  
+      height: 1100px; 
+      font-size: small;      
+    }
+    .colist{
+    display: grid;  
+     -ms-grid-column-align: center;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    }
+    img.colleg {
+      width: 150px; 
+      height: 100px;
+    }
+    div.setg {
+      border: thin silver solid;
+      width: 150px;
+      font-size: 0.7rem;
+      padding: none !important;
+    }  
+  }
+  
+
+@media only screen and (max-width:767px){
+  #S1{
+    background-position: top center;
+    position: relative;
+    padding: 5px;     
+    font-size: small;
+    margin:0 50px;
+  }
+  .story{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 50%;
+    align-items: center;
+  }
+  .biglogo{
+     padding: 10px;
+  }
+  .scpt{
+      padding: 15px;
+  }
+  .lern{
+    margin: 4px 0;
+    padding: 4px;
+    
+  }
+  .scpt p{
+  padding: 7.5px 0;
+  }
+  .scpt h2{      
+      padding: 7.5px 0;
+  }
+  #S2{
+    font-size: small;
+  }
+ 
+  
+    /* section 3: Expertise */
+  #S3{
+      padding: 20px 20px ;
+      text-align: center;
+      background-position: top center;
+    margin:0 50px;
+    font-size: small;
+  }
+    
+  #S3 h2{
+       padding-bottom: 1px;
+       color: rgb(34, 31, 31);
+    }
+  #S3 p{
+      color: gray;
+    }
+    .expotab{
+        padding:15px;
+    }
+    .expotab tr,
+    .expotab td, 
+    .expotab h5, 
+    .expotab p,
+    .expotab img {
+        padding: 5px;
+    }
+    
+    /* Section 4:  MEET OUR TEAM */ 
+  
+   #S4{  
+      height: 800px; 
+      font-size: small;      
+    }
+    .colist{
+    display: grid;  align-self: center;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    margin:75px 0;
+    }
+    img.colleg {
+      width: 75px; 
+      height: 50px;
+    }
+    div.setg {
+      border: thin silver solid;
+      width: 76px;
+      font-size: 0.4rem;
+      padding: none !important;
+    }  
   }
