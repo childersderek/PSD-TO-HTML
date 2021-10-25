@@ -498,28 +498,12 @@ padding: 15px 0;
     /* Section 4:  MEET OUR TEAM */ 
   
    #S4{  
-      height: 1100px; 
       font-size: small;      
-    }
-    .colist{
-    display: grid;  
-     -ms-grid-column-align: center;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 10px;
-    margin-top: 15px;
-    margin-bottom: 25px;
     }
     img.colleg {
       width: 150px; 
       height: 100px;
     }
-    div.setg {
-      border: thin silver solid;
-      width: 150px;
-      font-size: 0.7rem;
-      padding: none !important;
-    }  
   }
   
 
@@ -588,27 +572,11 @@ padding: 15px 0;
     }
     
     /* Section 4:  MEET OUR TEAM */ 
-  
-   #S4{  
-      height: 800px; 
+    #S4{  
       font-size: small;      
     }
-    .colist{
-    display: grid;   -ms-grid-column-align: center;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
-    margin:75px 0;
-    }
     img.colleg {
-      width: 75px; 
-      height: 50px;
+      width: 83px; 
+      height: 80px;
     }
-    div.setg {
-      border: thin silver solid;
-      width: 76px;
-      font-size: 0.4rem;
-      padding: none !important;
-    }  
   }
