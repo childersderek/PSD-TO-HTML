@@ -1,13 +1,13 @@
 /* Header */
 
 .header-container {
-  background-image: url("/design-assets/bgk-header.png");
+  background-image: url("design-assets/bgk-header.png");
   background-color: #26244f;
   text-align: center;
   margin-top: 10px;
   height: 550px;
   background-size: cover;
-  background-position: 45% 100%;
+  background-position: 30% 100%;
 }
 
 .header-wrapper {
