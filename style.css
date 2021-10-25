@@ -1,7 +1,7 @@
 /* Header */
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: roboto;
 }
 
 *{
@@ -10,97 +10,182 @@ body {
 
 /* Footer */
 
-footer p{
-  color:white;
-}
-
 footer {
-  background-image: url("images/bgk-footer.png") ;
+  background-image: url("design-assets/bgk-footer.png") ;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 100px;
-}
+  background-position: center center;
 
-.footerMain{
-  display:flex;
-  justify-content:  space-between ;
-  
-
-  
+  padding: 4em 10%;
 }
-.footerMainLeft, .footerMainCenter, .footerMainRight {
-  flex: 1 1 0px;
-  padding: 2%;
-    border:green dashed;
-
-}
-h4{  border:green dashed;
-}
-
-.footerMainRight {
-  display:flex; 
- flex-direction: column;  
- justify-content:  space-evenly ;
+h4{  
+    font-family: "Play Display";
+    /* border:green dashed; */
 }
 footer h4, footer p, footer a {
   color: white ;
   text-decoration: none; 
+  font-weight: 50;
+}
+
+
+
+.footerMain{
+   display:flex;
+  justify-content:  space-around;
+}
+.footerMainLeft, .footerMainCenter, .footerMainRight {
+  flex: 1 1 0px;
+  padding: 2%;
+  /* border:green dashed; */
+}
+.footerMainLeft {
+  display:flex; 
+ flex-direction: column;  
+ justify-content:  flex-start;
+ /* align-items: flex-start;  */
+}
+.footerMainRight .footerMainCenter{
+  display:flex; 
+ flex-direction: column;  
+ justify-content:  flex-start;
+}
+
+.footerLogoLine{
+  display: flex;
+  padding: .8em 0 .5em 0;
+  justify-content: flex-start;
+}
+.footerLogo{
+  margin:0;
+}
+.tajam {
+  background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 1% 3% .5em;
+  font-size: 1.7em;
+  font-weight: lighter;
+  
+}
+
+.footerForm{
+  margin-top: 1em;
 }
 .stayInTouchForm{
   display:flex; 
   justify-content:  start ;
+  opacity: .8;
+  padding: 3% 5% 5% 0;
+
 }
-.newsletterForm{
-padding: 0 4px 0 0; 
-opacity: .5;
+input[type="email"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: white thin solid;
+    opacity: .5;
+    width: 55%;
 }
 .paperSVG {
   background-color: white;
-  padding: 3px 20px .5px 20px;
+  padding: 3px 15px 0 15px;
+  margin: 0 0 0 3%;
   opacity: .5;
-   /* height: 15px;  */
-
 }
 .socialmedia{
   display:flex; 
-  justify-content:  space-evenly ;
-  padding: 5px 0 0 0;
+  justify-content:  flex-start ;
+  padding: 0 0 0 0;
 }
-.stayInTouchForm a{
-  padding:5px;
+.socialmedia a{
+padding: 3% 2% 0 0;
 }
-.footerBar a{
-  padding: 20px 5px;
+
+
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2em;
+  /* border:red dashed; */
+
+}
+.footerPhone{
+  display:flex;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+.phoneImg{
+  margin:  0;
+}
+
+.phone{
+  margin: 0 5%;
+  white-space: nowrap;
+  /* border:red dashed; */
 }
 .footerAddress{
   display:flex;
   /* border:green dashed; */
-  justify-content:  left;
-}
-.footerPhone{
-  display:flex;
-  /* border:green dashed; */
-  justify-content:  left;
-  padding:10px;
+  justify-content:  left; 
+  align-items: flex-start;
 }
 .addressLogo{
-  border:blue dashed;
-  height:20px;
-  padding:5px;
+  /* border:blue dashed; */
+  /* height:20px; */
+  /* padding:5px; */
+  /* border:red solid; */
+  display: flex;
+  align-items: flex-start; 
+
+}
+.letterImg{
+  margin: 0;
+}
+
+.addressRoad{
+  margin: 0 5%;
+  align-self: flex-start;
+}
+.addressRoad p{
+  margin: 0;
+} 
+
+
+.footerLow{
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 10% 2% 2%;
+  /* border:green dashed; */
 }
 .footerBar {
   display: flex;
   justify-content: start;
-  /* border:green dashed; */
 }
-.footerLow{
+.footerBar a {
+  font-size: 70%;
+  margin: 0;
+  padding: 1em 1em 0 0;
+ 
+}
+.footerLow p {
+  font-size: 70%;
+  margin: 1em 0em 0 20em;
+}
+.copyright{
   display: flex;
-  justify-content: space-between;
-  /* border:green dashed; */
+  justify-content: flex-start;
 }
-
-
 /* Footer End */
+
 
 /* Header Section %%%%%%%%%%%%%%%%%%%%%%%%% */
 
@@ -152,7 +237,11 @@ opacity: .5;
   position: relative;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> 2c1b105235106542886b8005aaf62d7784ca8d95
 
 
 .nav-list,.logo-text {
@@ -161,7 +250,11 @@ opacity: .5;
  display: flex;
 }
 
+<<<<<<< HEAD
+=======
+=======
 
+>>>>>>> 2c1b105235106542886b8005aaf62d7784ca8d95
 .logo-text {
   list-style-type: none;
   display: flex;
@@ -176,7 +269,11 @@ opacity: .5;
   -webkit-text-fill-color: transparent;
 }
 
+<<<<<<< HEAD
+>>>>>>> bdc4cc245cbdaa42de8f97663851afc47168bed3
+=======
 
+>>>>>>> 2c1b105235106542886b8005aaf62d7784ca8d95
 .bg-img {
   background-image: url("/design-assets/bgk-header.png");
   max-width: 100%;
