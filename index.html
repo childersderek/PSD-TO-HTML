@@ -1,142 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
-  </head>
-  <body>
-    <!-- S5: client list with logos -->
-    <section class="S5">
-      <div class="S5-wrapper">
-        <div class="S5form-container">
-          <h3>GIVE US A GOOD NEWS</h3>
-          <form method="POST">
-            <label for="username">
-              <input
-                required
-                type="text"
-                name="username"
-                id="username"
-                placeholder="Name"
-              />
-            </label>
+    
+</head>
+<body>
+<!--Header: Logo , Naviagation Bar, Background fixed, Header h2, Paragraph and Button  -->
+<header>
+   
+    <div class="bg-img"> 
+      
+    <navbar >
 
-            <label for="email">
-              <input
-                required
-                type="text"
-                name="email"
-                id="email"
-                placeholder="Email"
-              />
-            </label>
+        <ul class = "nav-list">
+            
+            <li class ="nav-item">
+                <img class="header-logo" src="/design-assets/png/logo.png">  </li>
+                <li class ="logo-text"> 
+                    <a href="#"> tajam </a> 
+                   </li>
+            <li class ="nav-item"> 
+                    <a href="#">HOME </a> 
+            </li>
 
-            <label for="subject">
-              <input
-                required
-                type="text"
-                name="subject"
-                id="subject"
-                placeholder="Subject"
-              />
-            </label>
+             
+            <li class ="nav-item"> 
+                 <a href="#S1">ABOUT</a> 
+                </li>
+             <li class ="nav-item">  <a href="#S3">EXPERTISE<a> 
+                </li>
+             <li class ="nav-item"> <a href="#S4">TEAMS</a>
+                </li>
+             <li class ="nav-item"> <a href="#">WORKS</a>
+                </li>
+             <li class ="nav-item"><a href="#">PEOPLE SAY</a> 
+                </li>
+             <li class ="nav-item"> <a href="#">CONTACT</a>
+                 </li>
+     </ul> 
+    </navbar>
+   <br>
+   <br>
+        <h1 class="main-header">We Are Awesome Creative Agency</h1>
+        <p class="para-header">
+            This is Photoshop's version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean Sollicitudin,lorem <br>quis bibebum auctor, nisi elit consequant ipsum , nec sagittis sem nibh id elit. Duis sed odio sit amet nibh <br> vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit
+    </p>
+    
+    
+    <div class="header-button" >   
+        
+        <button class="center-button">LEARN MORE</button>
 
-            <label for="message">
-              <textarea
-                required
-                type="text"
-                name="message"
-                id="message"
-                placeholder="Your Massage"
-                rows="9"
-              ></textarea>
-            </label>
+    </div>
+    
+       
+    </div>
+    </div>
+    
+    
+</header>
 
-            <button class="S5submit-button">SUBMIT</button>
-          </form>
+<!-- S1: Logo, Centered left paragrpah, white background , button -->
+<section id="S1">
+  <div class="story">
+          <div class="biglogot">                  
+                      <img src="./design-assets/png/logo-big.png" alt="">                  
+          </div>
+
+          <div class="scpt">
+              <h2> OUR STORY </h2>
+                  <p class="para-story"> This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequet ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+                  <p class="para-story">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos</p>
+                  <button class="lern">LEARN MORE</button>
+          </div>
+  </div>
+      
+</section>
+
+
+  
+<!-- S2: Fixed background, and embedded video -->
+<section id="S2">
+  <div class="middle">
+      <img src="./design-assets/png/play.png" alt="">
+      <p> WATCH OUR STORY </p>
+  </div>
+
+</section>
+<!-- S3: Paragrpah. 6 boxes in grid format with graphics and text  -->
+<section id="S3">
+ <div>
+     <h2>EXPERTISE</h2>
+     <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+     <p class="line">________</p>
+
+     <table class="expotab">
+
+      <tr>
+        <td class="bordbot">
+            <img src="./design-assets/png/screen.png" alt="">
+            <h5>WEB DESIGN & DEVELOPMENT</h5>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </td>
+
+        <td class="bordbot">
+          <img src="./design-assets/png/pen.png" alt="">
+          <h5>BRANDING IDENTITY</h5>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </td>
+        
+        <td class="bordbot1">
+            <img src="./design-assets/png/mobile.png" alt="">
+            <h5>MOBILE APP</h5>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <img src="./design-assets/png/graph.png" alt="">
+            <h5>SEARCH ENGINE OPTIMIZATION</h5>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </td>
+        <td class="bordlr">
+            <img src="./design-assets/png/gameboy.png" alt="">
+            <h5>GAME DEVELOPMENT</h5>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </td>
+        <td>
+            <img src="./design-assets/png/heart.png" alt="">
+            <h5>MADE WITH LOVE</h5>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </td>
+      </tr>
+    </table>
+
+     <br><br>
+ </div>
+
+</section>
+<!-- S4: paragraph,fixed background, 4 parallel boxes with transparent textbox on bottom half, button -->
+<section id="S4">
+  <div class="team">
+      <h2>MEET OUR AMAZING TEAM</h2>
+      <p> Lorem ipsum dolor sit amet gravida nibh vel velit </p>
+      <p class="line1">____</p>
+    
+    
+      <div class="colist">
+         
+              <div class="setg">
+                     <img class="colleg" src="./design-assets/white.jpg" alt="">
+                     <h4>SEMF UCUK</h4>
+                     <p>CEO & FOUNDER</p>
+              </div>
+              <div class="setg">
+                  <img class="colleg" src="./design-assets/white.jpg" alt="">
+                  <h4>DIK ADALIN</h4>
+                     <p>ENGINEERING</p>
+              </div>
+              <div class="setg">
+                  <img class="colleg" src="./design-assets/white.jpg" alt="">
+                  <h4>JENG KOL</h4>
+                     <p>DESIGNER</p>
+              </div>
+              <div class="setg">
+                  <img class="colleg" src="./design-assets/white.jpg" alt="">
+                  <h4>PET ROMAK</h4>
+                     <p>MARKETING</p>
+              </div>
+         
+      </div>
+      <p>Become part of our dream team, let's join us !</p>
+      <button class="lern">WE ARE HIRING</button>
+  </div>
+
+
+
+</section>
+
+ <!-- S5: client list with logos -->
+ <section class="S5">
+  <div class="S5-wrapper">
+    <div class="S5form-container">
+      <h3>GIVE US A GOOD NEWS</h3>
+      <form method="POST">
+        <label for="username">
+          <input
+            required
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Name"
+          />
+        </label>
+
+        <label for="email">
+          <input
+            required
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+        </label>
+
+        <label for="subject">
+          <input
+            required
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject"
+          />
+        </label>
+
+        <label for="message">
+          <textarea
+            required
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Your Massage"
+            rows="9"
+          ></textarea>
+        </label>
+
+        <button class="S5submit-button">SUBMIT</button>
+      </form>
+    </div>
+    <div class="S5partners-container">
+      <h3 class="S5partners-header">OUR HAPPY CLIENT</h3>
+      <div class="logos-client">
+        <div class="S5section-aside">
+          <div class="S5-div1">
+            <img
+              src="photoshop/design-assets/png/Zara_Logo.png"
+              alt="Zara logo"
+            />
+          </div>
+          <div class="S5-div2">
+            <img
+              src="photoshop/design-assets/png/1280px-Barneys_New_York_Logo.png"
+              alt="Barneys logo"
+            />
+          </div>
+          <div class="S5-div3">
+            <img
+              src="photoshop/design-assets/png/Calvin_klein_logo.png"
+              alt="Calvin Klein logo"
+            />
+          </div>
+          <div class="S5-div4">
+            <img
+              src="photoshop/design-assets/png/Converse_logo.png"
+              alt="Converse logo"
+            />
+          </div>
+          <div class="S5-div5">
+            <img
+              src="photoshop/design-assets/png/1280px-Levi's_logo.png"
+              alt="Levis logo"
+            />
+          </div>
         </div>
-        <div class="S5partners-container">
-          <h3 class="S5partners-header">OUR HAPPY CLIENT</h3>
-          <div class="logos-client">
-            <div class="S5section-aside">
-              <div class="S5-div1">
-                <img
-                  src="photoshop/design-assets/png/Zara_Logo.png"
-                  alt="Zara logo"
-                />
-              </div>
-              <div class="S5-div2">
-                <img
-                  src="photoshop/design-assets/png/1280px-Barneys_New_York_Logo.png"
-                  alt="Barneys logo"
-                />
-              </div>
-              <div class="S5-div3">
-                <img
-                  src="photoshop/design-assets/png/Calvin_klein_logo.png"
-                  alt="Calvin Klein logo"
-                />
-              </div>
-              <div class="S5-div4">
-                <img
-                  src="photoshop/design-assets/png/Converse_logo.png"
-                  alt="Converse logo"
-                />
-              </div>
-              <div class="S5-div5">
-                <img
-                  src="photoshop/design-assets/png/1280px-Levi's_logo.png"
-                  alt="Levis logo"
-                />
-              </div>
-            </div>
-            <div class="S5section-aside">
-              <div class="S5-div6">
-                <img
-                  src="photoshop/design-assets/png/Logo_of_Mango_(new).png"
-                  alt="Mango logo"
-                />
-              </div>
-              <div class="S5-div7">
-                <img
-                  src="photoshop/design-assets/png/1280px-Gucci_Logo.png"
-                  alt="Gucci logo"
-                />
-              </div>
-              <div class="S5-div8">
-                <img
-                  src="photoshop/design-assets/png/1280px-Logo_NIKE.png"
-                  alt="NIKE logo"
-                />
-              </div>
-              <div class="S5-div9">
-                <img
-                  src="photoshop/design-assets/png/Puma_Logo.png"
-                  alt="Puma logo"
-                />
-              </div>
-              <div class="S5-div10">
-                <img
-                  src="photoshop/design-assets/png/Billabong.png"
-                  alt="Billabong logo"
-                />
-              </div>
-            </div>
+        <div class="S5section-aside">
+          <div class="S5-div6">
+            <img
+              src="photoshop/design-assets/png/Logo_of_Mango_(new).png"
+              alt="Mango logo"
+            />
+          </div>
+          <div class="S5-div7">
+            <img
+              src="photoshop/design-assets/png/1280px-Gucci_Logo.png"
+              alt="Gucci logo"
+            />
+          </div>
+          <div class="S5-div8">
+            <img
+              src="photoshop/design-assets/png/1280px-Logo_NIKE.png"
+              alt="NIKE logo"
+            />
+          </div>
+          <div class="S5-div9">
+            <img
+              src="photoshop/design-assets/png/Puma_Logo.png"
+              alt="Puma logo"
+            />
+          </div>
+          <div class="S5-div10">
+            <img
+              src="photoshop/design-assets/png/Billabong.png"
+              alt="Billabong logo"
+            />
           </div>
         </div>
       </div>
-    </section>
-    <!-- Footer-->
-    <footer>
-      <!-- logos, contact, box with subscribe, help, terms & condition, privacy -->
-    </footer>
-  </body>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer-->
+<!-- Footer-->
+<!-- Footer-->
+
+<footer>
+
+    <div class="footerMain">
+      
+<!-- Footer Main Left-->      
+      <div class="footerMainLeft">
+        <div class="footerLogoLine">
+          <img src="/design-assets/png/logo.png" alt="Company Logo" width= 40em class="footerLogo"> 
+          <div class="tajam"> tajam</div>
+        </div>
+        <div>
+          <p>Cupcake ipsum dolor sit amet apple pie. Biscuit jujubes gingerbread pie powder jelly beans.
+          </p> 
+        </div>
+      </div>
+
+<!-- Footer Main Center-->      
+      <div class="footerMainCenter">
+        <h4>OUR STUDIO</h4>
+          <div class="contact">
+            <div class="footerAddress"> 
+              <div class="addressLogo">
+                <img class="letterImg " src="/design-assets/png/big104.png" alt="Company Logo">
+              </div>
+              <div class="addressRoad">
+               <p>3902 Young Road. Richfield, Idaho(ID) 83349, Planet Earth.</p>
+              </div>
+            </div> 
+            <div class="footerPhone">    
+              <div class="phoneLogo">
+                <img class="phoneImg" src="/design-assets/png/phone351.png" alt="Company Logo">
+              </div>  
+              
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17" class="phoneImg">
+                <image id="phone351" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAzFBMVEUAAADw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PAAAAAGLvOSAAAAQnRSTlMA1i6m6p81XQ6oK0gQVhKR5oAVVWXJxkkdZAM4WhQ+QHR7JmJga6n+m4JEuKFNFxGn1+gGfMUZ1EIlvE+5CCDu2VApLTljAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAI1JREFUGNNVzccOwlAMRFHTIfRO6J3QQgu93///KLJ4IOPFSHMk2yJ6AgT/uoTCEaIaYsQlgQKLpEhKS5qMSDant/IUhKKWElKuaKhSs6kraNBs0VbQoSv0TOkPRIaMhLEBe4IzZSbMDSxYurCyWBvYbF0/dx7e9yJ7Pw5HTr8fZy5Xh9tdvX08eb1V/wCaSBENn8iBdgAAAABJRU5ErkJggg=="/>
+                </svg> -->
+                <div class="phone">
+                 <a href="01800 - Call Now"> 01800 - Call Now Dude! </a>
+                </div>
+            </div>
+          </div>    
+
+      </div>
+      
+<!-- Footer Main Right -->      
+      <div class="footerMainRight">
+        <h4>STAY IN TOUCH </h4>
+        <div class="footerForm">
+            <form name='newsletter' onsubmit='redirect();return false;'>
+                <div class="stayInTouchForm">
+                  <input required type="email" name="newsletter" id="newsletter" placeholder="Suscribe our newsletter" />
+                  <div class="paperSVG" >
+                    <input type="image" name="submit" src="/design-assets/png/paper122.png" border="0" alt="email logo" style="width: 25px;" />
+                  </div>
+                </div>
+              </form> 
+        </div>
+        
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank">
+            <img src="/design-assets/png/facebook.png" alt="facebook logo" width=30em> 
+            </a> 
+            <a href="https://twitter.com/" target="_blank">
+            <img src="/design-assets/png/twitter.png" alt="twitter logo" width=30em>
+            </a>
+            <a href="https://dribbble.com/" target="_blank">
+            <img src="design-assets/png/dribbble.png" alt="dribble logo" width=30em>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+            <img src="/design-assets/png/instagram.png" alt="instagram logo" width=30em >
+            </a>
+            <a href="https://myaccount.google.com/intro/profile" target="_blank">
+            <img src="/design-assets/png/gplus.png" alt="google plus logo" width=30em >
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+            <img src="/design-assets/png/youtube.png" alt="youtube logo" width=30em >
+            </a>
+        </div>
+      
+      </div>
+      
+    </div>
+<!-- Footer Low-->      
+
+    <div class="footerLow">
+      <div class="footerBar"> 
+        <a href="#" class="linkSec">
+            HELP 
+        </a> 
+        <a href="#" class="linkSec">
+            TERMS & CONDITIONS 
+        </a> 
+        <a href="#" class="linkSec">
+           PRIVACY
+        </a> 
+      </div>
+     
+      <div class="copyright">
+        <div>
+        <p>Copyright © 2021 - Group 1</p>
+        </div>
+      </div>
+    </div>
+</footer>
+<!-- Footer End-->
+<!-- Footer End-->
+<!-- Footer End-->
+</body>
 </html>

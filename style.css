@@ -1,7 +1,9 @@
-.nav-bar {
-  padding: 5px;
-  margin: 10px;
+/* Header */
+
+body {
+  font-family: roboto;
 }
+
 /* Kate section*/
 
 .S5form-container h3 {
@@ -126,3 +128,563 @@
 }
 
 /* Kate section end */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Footer */
+
+footer {
+  background-image: url("design-assets/bgk-footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  padding: 4em 10%;
+}
+h4 {
+  font-family: "Play Display";
+  /* border:green dashed; */
+}
+footer h4,
+footer p,
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 50;
+}
+
+.footerMain {
+  display: flex;
+  justify-content: space-around;
+}
+.footerMainLeft,
+.footerMainCenter,
+.footerMainRight {
+  flex: 1 1 0px;
+  padding: 2%;
+  /* border:green dashed; */
+}
+.footerMainLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start;  */
+}
+.footerMainRight .footerMainCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footerLogoLine {
+  display: flex;
+  padding: 0.8em 0 0.5em 0;
+  justify-content: flex-start;
+}
+.footerLogo {
+  margin: 0;
+}
+.tajam {
+  background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 1% 3% 0.5em;
+  font-size: 1.7em;
+  font-weight: lighter;
+}
+
+.footerForm {
+  margin-top: 1em;
+}
+.stayInTouchForm {
+  display: flex;
+  justify-content: start;
+  opacity: 0.8;
+  padding: 3% 5% 5% 0;
+}
+input[type="email"] {
+  background: rgba(0, 0, 0, 0);
+  border: white thin solid;
+  opacity: 0.5;
+  width: 55%;
+}
+.paperSVG {
+  background-color: white;
+  padding: 3px 15px 0 15px;
+  margin: 0 0 0 3%;
+  opacity: 0.5;
+}
+.socialmedia {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 0;
+}
+.socialmedia a {
+  padding: 3% 2% 0 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2em;
+  /* border:red dashed; */
+}
+.footerPhone {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+.phoneImg {
+  margin: 0;
+}
+
+.phone {
+  margin: 0 5%;
+  white-space: nowrap;
+  /* border:red dashed; */
+}
+.footerAddress {
+  display: flex;
+  /* border:green dashed; */
+  justify-content: left;
+  align-items: flex-start;
+}
+.addressLogo {
+  /* border:blue dashed; */
+  /* height:20px; */
+  /* padding:5px; */
+  /* border:red solid; */
+  display: flex;
+  align-items: flex-start;
+}
+.letterImg {
+  margin: 0;
+}
+
+.addressRoad {
+  margin: 0 5%;
+  align-self: flex-start;
+}
+.addressRoad p {
+  margin: 0;
+}
+
+.footerLow {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 10% 2% 2%;
+  /* border:green dashed; */
+}
+.footerBar {
+  display: flex;
+  justify-content: start;
+}
+.footerBar a {
+  font-size: 70%;
+  margin: 0;
+  padding: 1em 1em 0 0;
+}
+.footerLow p {
+  font-size: 70%;
+  margin: 1em 0em 0 20em;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+}
+/* Footer End */
+
+/* Header Section %%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.main-header {
+  text-align: center;
+  color: white;
+}
+.nav-list {
+  color: white;
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 200px;
+  padding-left: 300px;
+}
+.nav-item {
+  color: white;
+  list-style-type: none;
+  margin-right: 2rem;
+  justify-items: center;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 15%;
+}
+.nav-item a:hover {
+  color: aqua;
+}
+
+.nav-list ul {
+  list-style-type: none;
+}
+.para-header {
+  color: white;
+  text-align: center;
+}
+.center-button {
+  color: rgb(64, 224, 208);
+  text-align: center;
+  position: relative;
+  background-color: rgb(0, 0, 0, 0);
+}
+.header-button {
+  margin: auto;
+  width: 10%;
+  border: 2px solid turquoise;
+  position: relative;
+}
+
+.nav-list,
+.logo-text {
+  list-style-type: none;
+  display: flex;
+}
+
+.logo-text {
+  list-style-type: none;
+  display: flex;
+  padding-right: 100px;
+  background: linear-gradient(
+    280deg,
+    rgba(96, 85, 136, 1) 0%,
+    rgba(16, 168, 171, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-img {
+  background-image: url("/design-assets/bgk-header.png");
+  max-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Header */
+
+/* section 1 : OUR STORY */
+#S1 {
+  background-position: top center;
+  position: relative;
+  padding: 10px;
+  margin: 0 250px;
+}
+.story {
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: 300px 600px;
+  align-items: center;
+  grid-gap: 0;
+}
+.lern {
+  margin: 10px 0;
+  padding: 10px;
+  color: aquamarine;
+  font-weight: bolder;
+  border: 1px solid aquamarine;
+  background-color: transparent;
+}
+.lern:hover {
+  color: rgb(168, 226, 207);
+  background-color: transparent;
+}
+.scpt p {
+  color: rgb(67, 78, 78);
+  padding: 15px 0;
+}
+.scpt h2 {
+  color: rgb(18, 21, 36);
+  padding: 15px 0;
+}
+
+/* SEection 2 OUR STORY VIDEO */
+#S2 {
+  background-image: url("./design-assets/bgk-middle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-position: top center;
+  position: relative;
+}
+.middle {
+  text-align: center;
+}
+.middle img {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+}
+.middle p {
+  padding: 10px;
+  font-weight: bolder;
+  color: white;
+}
+
+/* section 3: Expertise */
+#S3 {
+  padding: 50px 50px;
+  text-align: center;
+  background-position: top center;
+  margin: 0 150px 0 150px;
+}
+
+#S3 h2 {
+  padding-bottom: 3px;
+  color: rgb(34, 31, 31);
+}
+#S3 p {
+  color: gray;
+}
+.expotab {
+  padding: 40px;
+}
+.expotab tr,
+.expotab td,
+.expotab h5,
+.expotab p,
+.expotab img {
+  padding: 15px;
+}
+.bordbot {
+  border-bottom: 1px solid rgb(218, 227, 230);
+  border-right: 1px solid rgb(218, 227, 230);
+}
+.bordbot1 {
+  border-bottom: 1px solid rgb(218, 227, 230);
+}
+.bordlr {
+  border-left: 1px solid rgb(218, 227, 230);
+  border-right: 1px solid rgb(218, 227, 230);
+}
+.expotab td:hover {
+  background-color: rgb(245, 246, 248);
+  color: rgb(69, 75, 87);
+}
+.line {
+  color: rgb(236, 236, 236);
+  text-decoration-line: none;
+}
+
+/* Section 4:  MEET OUR TEAM */
+
+#S4 {
+  background-image: url("./design-assets/bgk-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: top center;
+  position: relative;
+}
+.line1 {
+  color: rgb(236, 236, 236);
+  text-decoration-line: none;
+}
+.team {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-top: 25px;
+}
+.colist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+div.setg {
+  border: thin silver solid;
+  font-size: 0.7rem;
+}
+.setg h4 {
+  color: rgb(202, 197, 197);
+  border: none;
+}
+.setg p {
+  margin-top: -10px;
+  color: rgb(202, 197, 197);
+}
+img.colleg {
+  width: 190px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #S1 {
+    background-position: top center;
+    position: relative;
+    padding: 8px;
+    font-size: small;
+    margin: 0 100px;
+  }
+  .story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 70%;
+    align-items: center;
+  }
+  .biglogo {
+    padding: 20px;
+  }
+  .scpt {
+    padding: 30px;
+  }
+  .lern {
+    margin: 8px 0;
+    padding: 8px;
+  }
+  .scpt p {
+    padding: 15px 0;
+  }
+  .scpt h2 {
+    padding: 15px 0;
+  }
+  #S2 {
+    font-size: small;
+  }
+
+  /* section 3: Expertise */
+  #S3 {
+    padding: 40px 40px;
+    text-align: center;
+    background-position: top center;
+    margin: 0 100px;
+    font-size: small;
+  }
+
+  #S3 h2 {
+    padding-bottom: 2px;
+    color: rgb(34, 31, 31);
+  }
+  #S3 p {
+    color: gray;
+  }
+  .expotab {
+    padding: 30px;
+  }
+  .expotab tr,
+  .expotab td,
+  .expotab h5,
+  .expotab p,
+  .expotab img {
+    padding: 10px;
+  }
+
+  /* Section 4:  MEET OUR TEAM */
+
+  #S4 {
+    font-size: small;
+  }
+  img.colleg {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #S1 {
+    background-position: top center;
+    position: relative;
+    padding: 5px;
+    font-size: small;
+    margin: 0 50px;
+  }
+  .story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 50%;
+    align-items: center;
+  }
+  .biglogo {
+    padding: 10px;
+  }
+  .scpt {
+    padding: 15px;
+  }
+  .lern {
+    margin: 4px 0;
+    padding: 4px;
+  }
+  .scpt p {
+    padding: 7.5px 0;
+  }
+  .scpt h2 {
+    padding: 7.5px 0;
+  }
+  #S2 {
+    font-size: small;
+  }
+
+  /* section 3: Expertise */
+  #S3 {
+    padding: 20px 20px;
+    text-align: center;
+    background-position: top center;
+    margin: 0 50px;
+    font-size: small;
+  }
+
+  #S3 h2 {
+    padding-bottom: 1px;
+    color: rgb(34, 31, 31);
+  }
+  #S3 p {
+    color: gray;
+  }
+  .expotab {
+    padding: 15px;
+  }
+  .expotab tr,
+  .expotab td,
+  .expotab h5,
+  .expotab p,
+  .expotab img {
+    padding: 5px;
+  }
+
+  /* Section 4:  MEET OUR TEAM */
+  #S4 {
+    font-size: small;
+  }
+  img.colleg {
+    width: 83px;
+    height: 80px;
+  }
+}
