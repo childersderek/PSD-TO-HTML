@@ -1,0 +1,30 @@
+#Background-Container {
+  background-image: url("../design-assets/bgk-header.png");
+}
+
+/* For unordered-list  */
+.nav-list {
+  display: flex;
+
+  list-style-type: none;
+}
+/* For each nav item */
+.nav-item {
+  display: flex;
+}
+
+/* Logo in nav bar */
+.nav-list .logo {
+  background-image: url("logo.svg");
+}
+/* anchor tags in navigation bar */
+.nav-list a {
+  margin: 10px;
+  background: black;
+  color: white;
+  display: flex;
+  padding: 15px;
+}
+.nav-list .logo {
+  background-image: url("../design-assets/logo.svg");
+}
