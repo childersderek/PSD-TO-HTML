@@ -1,5 +1,11 @@
 /* Header */
 
+.header-container {
+  background-image: url("design-assets/bgk-header.png");
+  background-color: #26244f;
+  background-size: cover;
+  background-position: center center;
+}
 body {
   font-family: roboto;
 }
@@ -309,14 +315,6 @@ input[type="email"] {
 
 /* Header Section %%%%%%%%%%%%%%%%%%%%%%%%% */
 
-.main-header {
-  text-align: center;
-  margin-top: 10px;
-  height: 550px;
-  background-size: cover;
-  background-position: 45% 100%;
-}
-
 .header-wrapper {
   display: flex;
   margin: auto;
@@ -387,19 +385,22 @@ input[type="email"] {
 @media (max-width: 768px) {
 }
 
-.introduction-text {
-  display: flex;
-  background-color: #52c3c0;
-  height: 2px;
-  width: 50px;
-  margin: auto;
-}
-
 .introduction {
+  display: flex;
+  flex-direction: column;
   padding: 50px;
   padding-bottom: 10px;
-  align-items: center;
+  justify-content: center;
   color: white;
+  align-items: center;
+}
+
+.introduction-text {
+  padding: 50px;
+  padding-bottom: 10px;
+  justify-content: center;
+  color: white;
+  align-items: center;
 }
 
 .header-button {
@@ -408,7 +409,10 @@ input[type="email"] {
   color: #52c3c0;
   background-color: transparent;
 }
-
+.para {
+  text-align: center;
+  font-size: medium;
+}
 .nav-item {
   color: white;
   list-style-type: none;
